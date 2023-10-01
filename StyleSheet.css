@@ -1,0 +1,51 @@
+	/*
+
+
+	Requirements
+	Use at least three divs to organize the page
+	Utilize an external style sheet for at least two styles
+	Use at least two different classes to style content
+	Set the margin and padding around at least one element
+	Set and display at least one color using each of the following:
+	hex
+	rgba
+	
+	*/
+
+
+
+
+
+
+
+ .header {
+	 
+	 text-align:center;
+	 
+	 
+ }
+ 
+ 
+ 
+ .interests {
+	 
+	 padding-top: 200px;
+	 padding-bottom: 200px;
+	 color: #8B0000;
+	 
+	 
+ }
+ 
+ 
+ 
+ .language{
+	 
+	 color: rgba(1, 1, 122, 100%);
+ }
+ 
+ 
+ .br {
+	 
+	 margin: 50px;
+	 
+ }
