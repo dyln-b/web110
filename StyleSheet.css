@@ -3,10 +3,22 @@
  .header {
 	 
 	 text-align:center;
-	 
+	 font-size: 25px;
 	 
  }
  
+@keyframes h_size {
+    from {
+        font-size: 25px;
+    }
+    to {
+        font-size: 45px;
+    }
+}
+ 
+ .header:hover {
+	 animation: h_size 2s ease-in alternate infinite;
+ }
  
  
  .interests {
@@ -14,10 +26,14 @@
 	 padding-top: 200px;
 	 padding-bottom: 200px;
 	 color: #8B0000;
+	 transition: color 2s;
 	 
 	 
  }
  
+ .interests:hover {
+	 color: green;
+ }
  
  
  .language{
@@ -30,7 +46,14 @@
  
  
  .br {
-	 
+	 width: 10%;
+	 height: 10;
 	 margin: 50px;
-	 
+	 transition: width 3s, height 3s;
+ }
+ 
+ 
+ .br:hover {
+	 width: 30%;
+	 height: 150%
  }
